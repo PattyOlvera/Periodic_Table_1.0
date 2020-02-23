@@ -1,0 +1,520 @@
+* {
+    box-sizing: border-box;
+  }
+
+.p_table {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    grid-gap: 10px;
+}
+
+.element {
+    padding: 1rem;
+    border-radius: .5rem;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.5px;
+}
+
+.basic__metal {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(226,110,14,1) 100%);
+}
+
+.no__metal {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(14,118,226,1) 100%);
+}
+
+.noble__gas {
+    background: rgb(245,241,240);
+    background: linear-gradient(90deg, rgba(245,241,240,1) 0%, rgba(226,170,14,1) 100%);
+}
+
+.alkali__metal {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(226,14,175,1) 100%);
+}
+
+.alkaline__earth {
+    background: rgb(245,241,240);
+    background: linear-gradient(90deg, rgba(245,241,240,1) 0%, rgba(131,58,180,1) 100%);
+}
+
+.semimetal {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(14,226,49,1) 100%);   
+}
+
+.halogen {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(226,217,14,1) 100%);
+}
+
+.transition__metal {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(14,226,213,1) 100%);
+}
+
+.lanthanide {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,226,14,1) 100%);  
+}
+
+.symbol {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.name {nh6588n 36
+    22222uj
+    font-size: 1em;
+    text-align: center;
+}
+
+.h {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.he {
+    grid-row: 1;
+    grid-column: 18;
+}
+
+.li {
+    grid-row: 2;
+    grid-column: 1;
+}
+.be {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.b {
+    grid-row: 2;
+    grid-column: 13;
+}
+
+.c {
+    grid-row: 2;
+    grid-column: 14;
+}
+.n {
+    grid-row: 2;
+    grid-column: 15;
+}
+.o {
+    grid-row: 2;
+    grid-column: 16;
+}
+.f {
+    grid-row: 2;
+    grid-column: 17;
+}
+.ne {
+    grid-row: 2;
+    grid-column: 18;
+}
+.na {
+    grid-row: 3;
+    grid-column: 1;
+}
+.mg {
+    grid-row: 3;
+    grid-column: 2;
+}
+.al {
+    grid-row: 3;
+    grid-column: 13;
+}
+.si {
+    grid-row: 3;
+    grid-column: 14;
+}
+.p {
+    grid-row: 3;
+    grid-column: 15;
+}
+.s {
+    grid-row: 3;
+    grid-column: 16;
+}
+.cl {
+    grid-row: 3;
+    grid-column: 17;
+}
+.ar {
+    grid-row: 3;
+    grid-column: 18;
+}
+.k {
+    grid-row: 4;
+    grid-column: 1;
+}
+.ca {
+    grid-row: 4;
+    grid-column: 2;
+}
+.sc {
+    grid-row: 4;
+    grid-column: 3;
+}
+.ti {
+    grid-row: 4;
+    grid-column: 4;
+}
+.v {
+    grid-row: 4;
+    grid-column: 5;
+}
+.cr {
+    grid-row: 4;
+    grid-column: 6;
+}
+.mn {
+    grid-row: 4;
+    grid-column: 7;
+}
+.fe {
+    grid-row: 4;
+    grid-column: 8;
+}
+.co {
+    grid-row: 4;
+    grid-column: 9;
+}
+.ni {
+    grid-row: 4;
+    grid-column: 10;
+}
+.cu {
+    grid-row: 4;
+    grid-column: 11;
+}
+.zn {
+    grid-row: 4;
+    grid-column: 12;
+}
+.ga {
+    grid-row: 4;
+    grid-column: 13;
+}
+.ge {
+    grid-row: 4;
+    grid-column: 14;
+}
+.as {
+    grid-row: 4;
+    grid-column: 15;
+}
+.se {
+    grid-row: 4;
+    grid-column: 16;
+}
+.br {
+    grid-row: 4;
+    grid-column: 17;
+}
+.kr {
+    grid-row: 4;
+    grid-column: 18;
+}
+.rb {
+    grid-row: 5;
+    grid-column: 1;
+}
+.sr {
+    grid-row: 5;
+    grid-column: 2;
+}
+.y {
+    grid-row: 5;
+    grid-column: 3;
+}
+.zr {
+    grid-row: 5;
+    grid-column: 4;
+}
+.nb {
+    grid-row: 5;
+    grid-column: 5;
+}
+.mo {
+    grid-row: 5;
+    grid-column: 6;
+}
+.tc {
+    grid-row: 5;
+    grid-column: 7;
+}
+.ru {
+    grid-row: 5;
+    grid-column: 8;
+}
+.rh {
+    grid-row: 5;
+    grid-column: 9;
+}
+.pd {
+    grid-row: 5;
+    grid-column: 10;
+}
+.ag {
+    grid-row: 5;
+    grid-column: 11;
+}
+.cd {
+    grid-row: 5;
+    grid-column: 12;
+}
+.in {
+    grid-row: 5;
+    grid-column: 13;
+}
+
+.sn {
+    grid-row: 5;
+    grid-column: 14;
+}
+.sb {
+    grid-row: 5;
+    grid-column: 15;
+}
+.te {
+    grid-row: 5;
+    grid-column: 16;
+}
+.i {
+    grid-row: 5;
+    grid-column: 17;
+}
+.xe {
+    grid-row: 5;
+    grid-column: 18;
+}
+.cs {
+    grid-row: 6;
+    grid-column: 1;
+}
+.ba {
+    grid-row: 6;
+    grid-column: 2;
+}
+.elem_lanthanide {
+    grid-row: 6;
+    grid-column: 3;
+}
+.la {
+    grid-row: 9;
+    grid-column: 2;
+}
+.ce {
+    grid-row: 9;
+    grid-column: 3;
+}
+.pr {
+    grid-row: 9;
+    grid-column: 4;
+}
+.nd {
+    grid-row: 9;
+    grid-column: 5;
+}
+.pm {
+    grid-row: 9;
+    grid-column: 6;
+}
+.sm {
+    grid-row: 9;
+    grid-column: 7;
+}
+.eu {
+    grid-row: 9;
+    grid-column: 8;
+}
+.gd {
+    grid-row: 9;
+    grid-column: 9;
+}
+.tb {
+    grid-row: 9;
+    grid-column: 10;
+}
+.dy {
+    grid-row: 9;
+    grid-column: 11;
+}
+.ho {
+    grid-row: 9;
+    grid-column: 12;
+}
+.er {
+    grid-row: 9;
+    grid-column: 13;
+}
+.tm {
+    grid-row: 9;
+    grid-column: 14;
+}
+.yb {
+    grid-row: 9;
+    grid-column: 15;
+}
+.lu {
+    grid-row: 9;
+    grid-column: 16;
+}
+.hf {
+    grid-row: 6;
+    grid-column: 4;
+}
+.ta {
+    grid-row: 6;
+    grid-column: 5;
+}
+.w {
+    grid-row: 6;
+    grid-column: 6;
+}
+.re {
+    grid-row: 6;
+    grid-column: 7;
+}
+.os {
+    grid-row: 6;
+    grid-column: 8;
+}
+.ir {
+    grid-row: 6;
+    grid-column: 9;
+}
+.pt {
+    grid-row: 6;
+    grid-column: 10;
+}
+.au {
+    grid-row: 6;
+    grid-column: 11;
+}
+.hg {
+    grid-row: 6;
+    grid-column: 12;
+}
+.tl {
+    grid-row: 6;
+    grid-column: 13;
+}
+.pb {
+    grid-row: 6;
+    grid-column: 14;
+}
+.bi {
+    grid-row: 6;
+    grid-column: 15;
+}
+.po {
+    grid-row: 6;
+    grid-column: 16;
+}
+.at {
+    grid-row: 6;
+    grid-column: 17;
+}
+.rn {
+    grid-row: 6;
+    grid-column: 18;
+}
+. {
+    grid-row: ;
+    grid-column: ;
+}
+. {
+    grid-row: ;
+    grid-column: ;
+}
+. {
+    grid-row: ;
+    grid-column: ;
+}
+. {
+    grid-row: ;
+    grid-column: ;
+}
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+
+. {
+    grid-row: ;
+    grid-column: ;
+}
+. {
+    grid-row: ;
+    grid-column: ;
+}
